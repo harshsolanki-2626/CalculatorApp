@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+    <div class="calculaor">
+        <div class="Display">
+            <input type="text" id="result" disabled>
+        </div>
+        <div class="row1">
+            <button  onclick=" clin()">AC</button>
+            <button onclick="oneDataRemuve()">&larr;</button>
+            <button onclick="calculate()">%</button>
+            <button onclick="addnum('/')">/</button>
+        </div>
+        <div class="row2">
+            <button onclick="addnum('7')">7</button>
+            <button onclick="addnum('8')">8</button>
+            <button onclick="addnum('9')">9</button>
+            <button onclick="addnum('*')">X</button>
+        </div>
+        <div class="row3">
+            <button onclick="addnum('4')">4</button>
+            <button onclick="addnum('5')">5</button>
+            <button onclick="addnum('6')">6</button>
+            <button onclick="addnum('-')">-</button>
+        </div>
+        <div class="row4">
+            <button onclick="addnum('1')">1</button>
+            <button onclick="addnum('2')">2</button>
+            <button onclick="addnum('3')">3</button>
+            <button onclick="addnum('+')">+</button>
+        </div>
+        <div class="row5">''
+            <button onclick="addnum('00')">00</button>
+            <button onclick="addnum('0')">0</button>
+            <button onclick="addnum('.')">.</button>
+            <button id="equal" onclick="equaldata()">=</button>
+        </div>
+        
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+</html>

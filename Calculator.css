@@ -1,0 +1,67 @@
+/* Calculator.css */
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculaor {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+.Display {
+    margin-bottom: 15px;
+}
+
+#result {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #444; /* Updated background color */
+    color: #fff; /* Optional: makes text readable on dark background */
+    box-sizing: border-box;
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button {
+    flex: 1;
+    margin: 5px;
+    padding: 15px 0;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+#equal {
+    background-color: #ff9500;
+    color: #fff;
+}
+
+#equal:hover {
+    background-color: #e08900;
+}
